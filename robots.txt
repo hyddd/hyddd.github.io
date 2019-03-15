@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://hyddd.github.io/sitemap.xml
+Sitemap: http://hyddd.github.io/sitemap.xml

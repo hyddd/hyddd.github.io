@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hyddd site</title>
-    <link>https://example.org/posts/</link>
+    <link>https://hyddd.github.io/posts/</link>
     <description>Recent content in Posts on hyddd site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© Athul</copyright>
+    <copyright>© hyddd chan</copyright>
     <lastBuildDate>Mon, 10 Feb 2025 11:30:42 +0800</lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://hyddd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
-      <link>https://example.org/posts/first-post/</link>
+      <link>https://hyddd.github.io/posts/first-post/</link>
       <pubDate>Mon, 10 Feb 2025 11:30:42 +0800</pubDate>
-      <guid>https://example.org/posts/first-post/</guid>
+      <guid>https://hyddd.github.io/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello world&lt;/h2&gt;</description>
     </item>
   </channel>

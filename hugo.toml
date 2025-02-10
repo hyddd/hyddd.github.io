@@ -1,8 +1,8 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hyddd.github.io/'
 languageCode = 'en-us'
 title = 'hyddd site'
 theme = 'archie'
-copyright = "© Athul"
+copyright = "© hyddd chan"
 publishDir = "docs"
 
 # Code Highlight

@@ -5,6 +5,8 @@ hugo new posts/first-post.md
 git submodule add https://github.com/spf13/hyde.git themes/hyde
 修改hugo.toml
 
+## 编译
+hugo
 
 ## help:
 https://zhuanlan.zhihu.com/p/37752930

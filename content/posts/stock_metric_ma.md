@@ -1,3 +1,8 @@
++++
+date = '2025-03-02T20:10:42+08:00'
+title = ’stock_metric_ma'
++++
+
 # 移动平均线（Moving Average，简称：MA）
 
 ## 一、定义与计算原理

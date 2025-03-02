@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hyddd site</title>
-    <link>https://hyddd.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on hyddd site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© hyddd chan</copyright>
     <lastBuildDate>Sun, 02 Mar 2025 20:10:42 +0800</lastBuildDate>
-    <atom:link href="https://hyddd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>stock_metric_ma</title>
-      <link>https://hyddd.github.io/posts/stock_metric_ma/</link>
+      <link>http://localhost:1313/posts/stock_metric_ma/</link>
       <pubDate>Sun, 02 Mar 2025 20:10:42 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/stock_metric_ma/</guid>
+      <guid>http://localhost:1313/posts/stock_metric_ma/</guid>
       <description>&lt;h1 id=&#34;移动平均线moving-average简称ma&#34;&gt;移动平均线（Moving Average，简称：MA）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;一定义与计算原理&#34;&gt;一、定义与计算原理&lt;/h2&gt;&#xA;&lt;p&gt;通过对一定时间段内的股票收盘价进行算术平均计算，形成反映价格趋势的指标。&#xA;计算公式为：MA = (C₁ + C₂ + &amp;hellip; + Cn) / n&lt;/p&gt;&#xA;&lt;h2 id=&#34;二不同周期的分类&#34;&gt;二、不同周期的分类&lt;/h2&gt;&#xA;&lt;h4 id=&#34;1短期均线5日10日&#34;&gt;1、短期均线（5日、10日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;5日均线常用于日内交易者判断短期支撑/压力位。&lt;/strong&gt; 当股价站稳短期均线上方且均线向上倾斜，表明短期多头占优；反之则预示回调风险。&lt;/p&gt;&#xA;&lt;h4 id=&#34;2中期均线30日60日&#34;&gt;2、中期均线（30日、60日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;60日均线（季线）常被视为中线投资者的“生命线”。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;3长期均线120日250日&#34;&gt;3、长期均线（120日、250日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;250日均线（年线）被视作牛熊分界线，股价长期位于其上方为牛市信号。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;20日均线-与-30日均线-对比&#34;&gt;20日均线 与 30日均线 对比&lt;/h4&gt;&#xA;&lt;p&gt;| 20日均线 | 30日均线 |&#xA;| —— | —— |&#xA;| 短期趋势（约1个月） | 中期趋势（约1.5个月） |&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>https://hyddd.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Mon, 10 Feb 2025 11:30:42 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello world&lt;/h2&gt;</description>
     </item>
   </channel>

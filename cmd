@@ -8,5 +8,8 @@ git submodule add https://github.com/spf13/hyde.git themes/hyde
 ## 编译
 hugo
 
+## 本地服务
+hugo server
+
 ## help:
 https://zhuanlan.zhihu.com/p/37752930

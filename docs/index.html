@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
-	<head lang="en">
+	<head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>hyddd site | Home </title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta property="og:image" content=""/>
-	<link rel="alternate" type="application/rss+xml" href="https://hyddd.github.io/index.xml" title="hyddd site" />
-	<meta property="og:url" content="https://hyddd.github.io/">
+	<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="hyddd site" />
+	<meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="hyddd site">
   <meta property="og:title" content="hyddd site">
   <meta property="og:locale" content="en_us">
@@ -15,13 +15,13 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="hyddd site">
 
-        <link href="https://hyddd.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://hyddd.github.io/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://hyddd.github.io/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
-		src="https://hyddd.github.io/js/MathJax.js"></script>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.6a0f23ea50fd34b46fee262a5a68e17d458c51a2bc99ba1ba018065de6b180c3.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.50b57e12d401420df23965fed157368aba37b76df0ecefd0b1ecd4da664f01a0.css" media="(prefers-color-scheme: dark)"  /><script type="text/javascript"
+		src="http://localhost:1313/js/MathJax.js"></script>
 		
 		<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
@@ -35,9 +35,9 @@
 						 extensions: ["AMSmath.js", "AMSsymbols.js"] }
 			}
 		});
-		</script><link rel="stylesheet" href="https://hyddd.github.io/katex/katex.min.css ">
-		<script defer src="https://hyddd.github.io/katex/katex.min.js"></script>
-		<script defer src="https://hyddd.github.io/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+		</script><link rel="stylesheet" href="http://localhost:1313/katex/katex.min.css ">
+		<script defer src="http://localhost:1313/katex/katex.min.js"></script>
+		<script defer src="http://localhost:1313/katex/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
 		
 		<script>
 			document.addEventListener("DOMContentLoaded", function() {
@@ -55,7 +55,7 @@
 		<div class="content">
 			<header>
 	<div class="main">
-		<a href="https://hyddd.github.io/">hyddd site</a>
+		<a href="http://localhost:1313/">hyddd site</a>
 	</div>
 	<nav>
 		
@@ -76,6 +76,53 @@
 				<div class="site-description"><p>Minimal and Clean <a href="https://github.com/athul/archie">blog theme for Hugo</a></p></div>
 				
 				
+				
+				<section class="list-item">
+					<h1 class="title"><a href="/posts/bug_value/">游戏服务器性能中，如何衡量Bug价值？</a></h1>
+					<time>Feb 10, 2025</time>
+					<br><div class="description">
+	
+	<p>为什么在标题中，特别强调”游戏“维度？因为”游戏“场景与构架，和通用系统有所不同，所以在问题拆解时和权重分配时，会有所区别。“服务器性能”与“功能测试”对比同理。</p>
+<h2 id="分析维度">分析维度</h2>
+<h5 id="1严重性">1、严重性</h5>
+<ul>
+<li><strong>Critical（严重）</strong> <em>(系统崩溃、数据丢失、核心功能无法使用)</em>
+<ul>
+<li>游戏无法登陆</li>
+<li>游戏无法支付</li>
+<li>全区服雪崩/瘫痪</li>
+<li>全区服（部分）核心功能无法服务</li>
+<li>单区服（部分）核心功能无法服务</li>
+</ul>
+</li>
+<li><strong>High（高）</strong> <em>(影响主要功能，但系统仍可运行)</em>
+<ul>
+<li>全区服（部分）非核心功能无法服务</li>
+<li>单区服（部分）非核心功能无法服务</li>
+</ul>
+</li>
+<li><strong>Medium（中）</strong> <em>(影响次要功能，但对用户体验有一定影响)</em>
+<ul>
+<li>功能响应时间较长，导致用户等待/影响用户体验</li>
+</ul>
+</li>
+<li><strong>Low（低）</strong> <em>(对功能或用户体验影响较小)</em>
+<ul>
+<li>暂无</li>
+</ul>
+</li>
+</ul>
+<h4 id="2影响范围">2、影响范围</h4>
+<ul>
+<li>全区服</li>
+<li>单区服</li>
+</ul>
+<p><a href="https://km.woa.com/group/18790/docs/show/224469?kmref=search&amp;from_page=1&amp;no=1">https://km.woa.com/group/18790/docs/show/224469?kmref=search&amp;from_page=1&amp;no=1</a></p>
+<p>新游戏，pcu与mau比例为1:10</p>&hellip;
+	
+</div>
+					<a class="readmore" href="/posts/bug_value/">Read more ⟶</a>
+				</section>
 				
 				<section class="list-item">
 					<h1 class="title"><a href="/posts/first-post/">First Post</a></h1>
@@ -105,8 +152,6 @@
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
 
 
 		</div>

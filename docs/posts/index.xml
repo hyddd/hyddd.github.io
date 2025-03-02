@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hyddd site</title>
-    <link>https://hyddd.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on hyddd site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© hyddd chan</copyright>
-    <lastBuildDate>Mon, 10 Feb 2025 11:30:42 +0800</lastBuildDate>
-    <atom:link href="https://hyddd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Feb 2025 17:30:42 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>游戏服务器性能中，如何衡量Bug价值？</title>
+      <link>http://localhost:1313/posts/bug_value/</link>
+      <pubDate>Mon, 10 Feb 2025 17:30:42 +0800</pubDate>
+      <guid>http://localhost:1313/posts/bug_value/</guid>
+      <description>&lt;p&gt;为什么在标题中，增加”游戏“这个维度？因为”游戏“应用场景和通用系统场景略有不同，在问题拆解时和权重分配时，会有一定区别，所以特别把应用场景明确在”游戏“这个领域。&lt;/p&gt;&#xA;&lt;p&gt;我们基于Bug评价维度，并抽取重点维度进行分析：&lt;/p&gt;&#xA;&lt;h2 id=&#34;维度&#34;&gt;维度&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;严重性&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Critical（严重）：导致系统崩溃、数据丢失、核心功能无法使用。&#xA;&lt;ul&gt;&#xA;&lt;li&gt;游戏无法登陆&lt;/li&gt;&#xA;&lt;li&gt;游戏无法支付&lt;/li&gt;&#xA;&lt;li&gt;全区服雪崩/瘫痪&lt;/li&gt;&#xA;&lt;li&gt;全区服（部分）核心功能无法服务&lt;/li&gt;&#xA;&lt;li&gt;单区服（部分）核心功能无法服务&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;High（高）：影响主要功能，但系统仍可运行&#xA;&lt;ul&gt;&#xA;&lt;li&gt;全区服（部分）非核心功能无法服务&#xA;- 单区服（部分）非核心功能无法服务&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Medium（中）：影响次要功能，但对用户体验有一定影响&#xA;&lt;ul&gt;&#xA;&lt;li&gt;功能响应时间较长，导致用户等待/影响用户体验&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Low（低）：对功能或用户体验影响较小&#xA;&lt;ul&gt;&#xA;&lt;li&gt;暂无&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;影响范围&#xA;&lt;ul&gt;&#xA;&lt;li&gt;全区服&lt;/li&gt;&#xA;&lt;li&gt;单区服&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;出现频率&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>First Post</title>
-      <link>https://hyddd.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Mon, 10 Feb 2025 11:30:42 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello world&lt;/h2&gt;</description>
     </item>
   </channel>

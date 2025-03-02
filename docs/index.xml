@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hyddd site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://hyddd.github.io/</link>
     <description>Recent content on hyddd site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© hyddd chan</copyright>
-    <lastBuildDate>Mon, 10 Feb 2025 17:30:42 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Mar 2025 20:10:42 +0800</lastBuildDate>
+    <atom:link href="https://hyddd.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>游戏服务器性能中，如何衡量Bug价值？</title>
-      <link>http://localhost:1313/posts/bug_value/</link>
-      <pubDate>Mon, 10 Feb 2025 17:30:42 +0800</pubDate>
-      <guid>http://localhost:1313/posts/bug_value/</guid>
-      <description>&lt;p&gt;为什么在标题中，特别强调”游戏“维度？因为”游戏“场景与构架，和通用系统有所不同，所以在问题拆解时和权重分配时，会有所区别。“服务器性能”与“功能测试”对比同理。&lt;/p&gt;&#xA;&lt;h2 id=&#34;分析维度&#34;&gt;分析维度&lt;/h2&gt;&#xA;&lt;h5 id=&#34;1严重性&#34;&gt;1、严重性&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Critical（严重）&lt;/strong&gt; &lt;em&gt;(系统崩溃、数据丢失、核心功能无法使用)&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;游戏无法登陆&lt;/li&gt;&#xA;&lt;li&gt;游戏无法支付&lt;/li&gt;&#xA;&lt;li&gt;全区服雪崩/瘫痪&lt;/li&gt;&#xA;&lt;li&gt;全区服（部分）核心功能无法服务&lt;/li&gt;&#xA;&lt;li&gt;单区服（部分）核心功能无法服务&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;High（高）&lt;/strong&gt; &lt;em&gt;(影响主要功能，但系统仍可运行)&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;全区服（部分）非核心功能无法服务&lt;/li&gt;&#xA;&lt;li&gt;单区服（部分）非核心功能无法服务&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Medium（中）&lt;/strong&gt; &lt;em&gt;(影响次要功能，但对用户体验有一定影响)&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;功能响应时间较长，导致用户等待/影响用户体验&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Low（低）&lt;/strong&gt; &lt;em&gt;(对功能或用户体验影响较小)&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;暂无&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 id=&#34;2影响范围&#34;&gt;2、影响范围&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;全区服&lt;/li&gt;&#xA;&lt;li&gt;单区服&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://km.woa.com/group/18790/docs/show/224469?kmref=search&amp;amp;from_page=1&amp;amp;no=1&#34;&gt;https://km.woa.com/group/18790/docs/show/224469?kmref=search&amp;amp;from_page=1&amp;amp;no=1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;新游戏，pcu与mau比例为1:10&lt;/p&gt;</description>
+      <title>stock_metric_ma</title>
+      <link>https://hyddd.github.io/posts/stock_metric_ma/</link>
+      <pubDate>Sun, 02 Mar 2025 20:10:42 +0800</pubDate>
+      <guid>https://hyddd.github.io/posts/stock_metric_ma/</guid>
+      <description>&lt;h1 id=&#34;移动平均线moving-average简称ma&#34;&gt;移动平均线（Moving Average，简称：MA）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;一定义与计算原理&#34;&gt;一、定义与计算原理&lt;/h2&gt;&#xA;&lt;p&gt;通过对一定时间段内的股票收盘价进行算术平均计算，形成反映价格趋势的指标。&#xA;计算公式为：MA = (C₁ + C₂ + &amp;hellip; + Cn) / n&lt;/p&gt;&#xA;&lt;h2 id=&#34;二不同周期的分类&#34;&gt;二、不同周期的分类&lt;/h2&gt;&#xA;&lt;h4 id=&#34;1短期均线5日10日&#34;&gt;1、短期均线（5日、10日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;5日均线常用于日内交易者判断短期支撑/压力位。&lt;/strong&gt; 当股价站稳短期均线上方且均线向上倾斜，表明短期多头占优；反之则预示回调风险。&lt;/p&gt;&#xA;&lt;h4 id=&#34;2中期均线30日60日&#34;&gt;2、中期均线（30日、60日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;60日均线（季线）常被视为中线投资者的“生命线”。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;3长期均线120日250日&#34;&gt;3、长期均线（120日、250日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;250日均线（年线）被视作牛熊分界线，股价长期位于其上方为牛市信号。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;20日均线-与-30日均线-对比&#34;&gt;20日均线 与 30日均线 对比&lt;/h4&gt;&#xA;&lt;p&gt;| 20日均线 | 30日均线 |&#xA;| —— | —— |&#xA;| 短期趋势（约1个月） | 中期趋势（约1.5个月） |&lt;/p&gt;</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>http://localhost:1313/posts/first-post/</link>
+      <link>https://hyddd.github.io/posts/first-post/</link>
       <pubDate>Mon, 10 Feb 2025 11:30:42 +0800</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
+      <guid>https://hyddd.github.io/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello world&lt;/h2&gt;</description>
     </item>
   </channel>

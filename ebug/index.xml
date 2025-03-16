@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hyddd site</title>
-    <link>https://hyddd.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on hyddd site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© hyddd chan</copyright>
     <lastBuildDate>Mon, 17 Mar 2025 01:40:04 +0800</lastBuildDate>
-    <atom:link href="https://hyddd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>turtle_trading</title>
-      <link>https://hyddd.github.io/posts/turtle_trading/</link>
+      <link>http://localhost:1313/posts/turtle_trading/</link>
       <pubDate>Mon, 17 Mar 2025 01:40:04 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/turtle_trading/</guid>
+      <guid>http://localhost:1313/posts/turtle_trading/</guid>
       <description>&lt;h1 id=&#34;海龟交易法&#34;&gt;海龟交易法&lt;/h1&gt;&#xA;&lt;h2 id=&#34;入场信号&#34;&gt;入场信号&lt;/h2&gt;&#xA;&lt;p&gt;20日突破法&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;价格超过过去20日最高点时买入&lt;/li&gt;&#xA;&lt;li&gt;跌破20日最低点时卖出或做空&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;头寸规模&#34;&gt;头寸规模&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;使用”N值“衡量市场波动性&lt;/li&gt;&#xA;&lt;li&gt;N值：20日平均真实波动幅度，ATR&lt;/li&gt;&#xA;&lt;li&gt;每笔交易风险，通常控制在1%~2%，头寸规模根据N值与账户规模计算&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;止损&#34;&gt;止损&lt;/h2&gt;&#xA;&lt;p&gt;每笔交易设置止损，通常设置为2N，即价格反向波动2倍N值时平仓&lt;/p&gt;&#xA;&lt;h2 id=&#34;加仓&#34;&gt;加仓&lt;/h2&gt;&#xA;&lt;p&gt;价格每上涨0.5N，加仓一次，但总头寸不超过预设上限&lt;/p&gt;&#xA;&lt;h2 id=&#34;离场&#34;&gt;离场&lt;/h2&gt;&#xA;&lt;p&gt;短期系统：10突破，价格跌破10日最低点时平仓&lt;/p&gt;</description>
     </item>
     <item>
       <title>股票指标 - 移动平均线(MA)</title>
-      <link>https://hyddd.github.io/posts/stock_metric_ma/</link>
+      <link>http://localhost:1313/posts/stock_metric_ma/</link>
       <pubDate>Sun, 02 Mar 2025 20:10:42 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/stock_metric_ma/</guid>
+      <guid>http://localhost:1313/posts/stock_metric_ma/</guid>
       <description>&lt;h1 id=&#34;移动平均线moving-average简称ma&#34;&gt;移动平均线（Moving Average，简称：MA）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;一定义与计算原理&#34;&gt;一、定义与计算原理&lt;/h2&gt;&#xA;&lt;p&gt;通过对一定时间段内的股票收盘价进行算术平均计算，形成反映价格趋势的指标。&#xA;计算公式为：MA = (C₁ + C₂ + &amp;hellip; + Cn)/n&lt;/p&gt;&#xA;&lt;h2 id=&#34;二不同周期的分类&#34;&gt;二、不同周期的分类&lt;/h2&gt;&#xA;&lt;h4 id=&#34;1短期均线5日10日&#34;&gt;1、短期均线（5日、10日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;5日均线常用于日内交易者判断短期支撑/压力位。&lt;/strong&gt; 当股价站稳短期均线上方且均线向上倾斜，表明短期多头占优；反之则预示回调风险。&lt;/p&gt;&#xA;&lt;h4 id=&#34;2中期均线30日60日&#34;&gt;2、中期均线（30日、60日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;60日均线（季线）常被视为中线投资者的“生命线”。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;3长期均线120日250日&#34;&gt;3、长期均线（120日、250日）&lt;/h4&gt;&#xA;&lt;p&gt;&lt;strong&gt;250日均线（年线）被视作牛熊分界线，股价长期位于其上方为牛市信号。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h4 id=&#34;20日均线-与-30日均线-对比&#34;&gt;20日均线 与 30日均线 对比&lt;/h4&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;指标&lt;/th&gt;&#xA;          &lt;th&gt;&lt;strong&gt;20日均线&lt;/strong&gt;&lt;/th&gt;&#xA;          &lt;th&gt;&lt;strong&gt;30日均线&lt;/strong&gt;&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;周期特性&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;短期趋势（约1个月）&lt;/td&gt;&#xA;          &lt;td&gt;中期趋势（约1.5个月）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;敏感度&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;更快反映价格波动&lt;/td&gt;&#xA;          &lt;td&gt;滞后性更强，过滤短期噪音&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;适用策略&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;短线波段交易、捕捉快速反转信号&lt;/td&gt;&#xA;          &lt;td&gt;中长线趋势跟踪、确认趋势持续性&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;典型应用&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;日内突破策略、&lt;strong&gt;超买超卖&lt;/strong&gt;区间判断&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;支撑/阻力位&lt;/strong&gt;确认、&lt;strong&gt;趋势回调买入点&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
     </item>
     <item>
       <title>First Post</title>
-      <link>https://hyddd.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Mon, 10 Feb 2025 11:30:42 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello world&lt;/h2&gt;</description>
     </item>
   </channel>

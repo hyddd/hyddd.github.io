@@ -4,6 +4,7 @@ title = 'hyddd site'
 theme = 'archie'
 copyright = "© hyddd chan"
 publishDir = "docs"
+summaryLength = 0
 
 # Code Highlight
 pygmentsstyle = "monokai"

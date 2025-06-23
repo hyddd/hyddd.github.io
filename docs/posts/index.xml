@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on hyddd site</title>
-    <link>https://hyddd.github.io/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on hyddd site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© hyddd chan</copyright>
     <lastBuildDate>Mon, 23 Jun 2025 20:22:40 +0800</lastBuildDate>
-    <atom:link href="https://hyddd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025-06-23-行情分析日记</title>
-      <link>https://hyddd.github.io/posts/2025-06-23/</link>
+      <link>http://localhost:1313/posts/2025-06-23/</link>
       <pubDate>Mon, 23 Jun 2025 20:22:40 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/2025-06-23/</guid>
+      <guid>http://localhost:1313/posts/2025-06-23/</guid>
       <description></description>
     </item>
     <item>
       <title>2025-06-15-行情分析日记</title>
-      <link>https://hyddd.github.io/posts/2025-06-15-post/</link>
+      <link>http://localhost:1313/posts/2025-06-15-post/</link>
       <pubDate>Sun, 15 Jun 2025 00:22:52 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/2025-06-15-post/</guid>
+      <guid>http://localhost:1313/posts/2025-06-15-post/</guid>
       <description></description>
     </item>
     <item>
       <title>海龟交易法</title>
-      <link>https://hyddd.github.io/posts/turtle_trading/</link>
+      <link>http://localhost:1313/posts/turtle_trading/</link>
       <pubDate>Mon, 17 Mar 2025 01:40:04 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/turtle_trading/</guid>
+      <guid>http://localhost:1313/posts/turtle_trading/</guid>
       <description></description>
     </item>
     <item>
       <title>股票指标 - 移动平均线(MA)</title>
-      <link>https://hyddd.github.io/posts/stock_metric_ma/</link>
+      <link>http://localhost:1313/posts/stock_metric_ma/</link>
       <pubDate>Sun, 02 Mar 2025 20:10:42 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/stock_metric_ma/</guid>
+      <guid>http://localhost:1313/posts/stock_metric_ma/</guid>
       <description></description>
     </item>
     <item>
       <title>First Post</title>
-      <link>https://hyddd.github.io/posts/first-post/</link>
+      <link>http://localhost:1313/posts/first-post/</link>
       <pubDate>Mon, 10 Feb 2025 11:30:42 +0800</pubDate>
-      <guid>https://hyddd.github.io/posts/first-post/</guid>
+      <guid>http://localhost:1313/posts/first-post/</guid>
       <description></description>
     </item>
   </channel>
